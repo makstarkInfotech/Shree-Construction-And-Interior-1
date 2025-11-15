@@ -58,6 +58,7 @@
       "scripts": {
             "dev": "vite",
             "build": "vite build",
+            "postbuild": "node scripts/copy404.js",
             "predeploy": "npm run build",
             "deploy": "gh-pages -d build"
       },
