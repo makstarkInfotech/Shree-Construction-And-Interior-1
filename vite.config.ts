@@ -4,6 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
+    // Base path for GitHub Pages — set to repository name
+    base: '/Shree-Construction-And-Interior-1/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
