@@ -4,8 +4,8 @@
   import path from 'path';
 
   export default defineConfig({
-    // Base path for GitHub Pages — set to repository name
-    base: '/Shree-Construction-And-Interior-1/',
+    // Base path for GitHub Pages — only in production
+    base: process.env.NODE_ENV === 'production' ? '/Shree-Construction-And-Interior-1/' : '/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
