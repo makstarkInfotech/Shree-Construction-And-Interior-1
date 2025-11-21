@@ -3,31 +3,31 @@ import { Star } from "lucide-react";
 export function Reviews() {
   const reviews = [
     {
-      name: "Rajesh Kumar",
+      name: "Riddhik Chatterjee",
       rating: 5,
-      text: "Outstanding work! The team transformed our home beautifully. Highly professional and attention to detail was impeccable.",
-      date: "2 months ago",
+      text: "Had a great experience with Partha and his team! They are very trustworthy and reliable — since I had to go to the office daily, I could easily leave the flat in their hands without any worry. Everyone in the team was well-mannered, punctual, and very professional in their work.Partha also gave ...",
+      date: "a week ago",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh",
     },
     {
-      name: "Priya Singh",
+      name: "Sunita Bhuiya",
       rating: 5,
-      text: "Excellent interior design service. They understood our vision perfectly and delivered beyond expectations. Highly recommended!",
-      date: "1 month ago",
+      text: "Very good service provided by shree construction & interiors 👌 …",
+      date: "2 months ago",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya",
     },
     {
-      name: "Amit Patel",
+      name: "Riya Laha",
       rating: 5,
-      text: "Best construction company in the area. Quality work, timely completion, and reasonable pricing. Very satisfied with their service.",
-      date: "3 weeks ago",
+      text: "Fantastic interior designer and finishing the colour short time ,,,,,,lovely 👍♥️ …",
+      date: "2 months ago",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Amit",
     },
     {
-      name: "Neha Verma",
+      name: "Arjun Bose",
       rating: 5,
-      text: "Amazing team! They handled the entire project smoothly. The communication was great and the final result is fantastic.",
-      date: "1 week ago",
+      text: "Positive: Responsiveness, Punctuality, Quality, Professionalism, Value",
+      date: "3 years ago",
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Neha",
     },
   ];
