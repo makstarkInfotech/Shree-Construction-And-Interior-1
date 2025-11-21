@@ -30,33 +30,48 @@ function PortfolioItem({ image, title, category }: PortfolioItemProps) {
 export function Portfolio() {
   const portfolioItems = [
     {
-      image: "https://images.unsplash.com/photo-1705321963943-de94bb3f0dd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBpbnRlcmlvciUyMGRlc2lnbiUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzYzMjA0MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%208.58.44%20PM.jpeg",
       title: "Modern Living Space",
       category: "Interior Design",
     },
     {
-      image: "https://images.unsplash.com/photo-1625578782042-3f2ad4f42956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiZWRyb29tJTIwaW50ZXJpb3J8ZW58MXx8fHwxNzYzMjExMDUwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      title: "Luxury Bedroom Suite",
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%209.12.01%20PM.jpeg",
+      title: "Modern Living Space",
       category: "Residential",
     },
     {
-      image: "https://images.unsplash.com/photo-1682888813795-192fca4a10d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBraXRjaGVuJTIwZGVzaWdufGVufDF8fHx8MTc2MzEzNzA2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-18%20at%2010.59.01%20AM%20(1).jpeg",
       title: "Contemporary Kitchen",
       category: "Kitchen Design",
     },
     {
-      image: "https://images.unsplash.com/photo-1703355685722-2996b01483be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBpbnRlcmlvciUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NjMyMjk5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%208.58.51%20PM.jpeg",
       title: "Corporate Workspace",
       category: "Commercial",
     },
     {
-      image: "https://images.unsplash.com/photo-1599619585752-c3edb42a414c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob21lJTIwcmVub3ZhdGlvbiUyMHBhaW50aW5nfGVufDF8fHx8MTc2MzIxNTUzOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/c.jpeg",
       title: "Complete Renovation",
       category: "Painting & Finishing",
     },
     {
-      image: "https://images.unsplash.com/photo-1728531274680-c8ed96662f0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwaG9tZSUyMGRlY29yfGVufDF8fHx8MTc2MzIzMDgzN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%209.12.01%20PM.jpeg",
       title: "Elegant Home Décor",
+      category: "Styling & Décor",
+    },
+    {
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%209.12.00%20PM%20(1).jpeg",
+      title: "Audio Jam Studio",
+      category: "Commercial",
+    },
+    {
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%208.39.46%20PM.jpeg",
+      title: "Modular Kitchen",
+      category: "Kitchen and Sink",
+    },
+    {
+      image: "https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%208.46.36%20PM.jpeg",
+      title: "Elegant Studio Décor",
       category: "Styling & Décor",
     },
   ];

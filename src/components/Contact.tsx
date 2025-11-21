@@ -47,20 +47,20 @@ export function Contact() {
     {
       icon: <Mail size={24} />,
       label: "Email",
-      value: "info@shreeconstruction.com",
-      link: "mailto:info@shreeconstruction.com",
+      value: "info.shreeconstructions@gmail.com",
+      link: "mailto:info.shreeconstructions@gmail.com",
     },
     {
       icon: <MapPin size={24} />,
       label: "Location",
-      value: "123 Business Park, Mumbai, India",
-      link: "#",
+      value: "Saptarshi, 220, Club Rd, Srikhanda, Panchpota, Rajpur Sonarpur, West Bengal 700152",
+      link: "https://share.google/Es9xIM7GgcSx4J1M2",
     },
     {
       icon: <Clock size={24} />,
       label: "Working Hours",
-      value: "Mon - Sat: 9:00 AM - 6:00 PM",
-      link: "#",
+      value: "Mon - Sat: 9:00 AM - 7:00 PM",
+      link: "https://share.google/Es9xIM7GgcSx4J1M2",
     },
   ];
 
@@ -218,9 +218,18 @@ export function Contact() {
               ))}
             </div>
 
-            {/* Map Placeholder */}
-            <div className="aspect-[16/9] bg-[var(--color-background-light)] rounded-[12px] border border-[var(--color-border)] flex items-center justify-center">
-              <MapPin size={48} className="text-[var(--color-text-light)]" />
+            {/* Google Map */}
+            <div className="aspect-[16/9] rounded-[12px] border border-[var(--color-border)] overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps?q=Shree+construction+%26+interior+Rajpur+Sonarpur&hl=en&z=16&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Shree Construction & Interior Location"
+              />
             </div>
           </div>
         </div>

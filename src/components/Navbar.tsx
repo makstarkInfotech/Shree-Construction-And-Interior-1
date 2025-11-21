@@ -9,6 +9,7 @@ export function Navbar() {
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Portfolio", href: "#portfolio" },
+    { label: "Reviews", href: "#reviews" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -20,14 +21,16 @@ export function Navbar() {
         <div className="flex items-center justify-between h-[80px]">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-[8px]">
-            <div className="w-[40px] h-[40px] bg-[var(--color-primary)] rounded-[8px] flex items-center justify-center">
-              <span className="text-white">SC</span>
+            <div className="w-[40px] h-[40px]  flex items-center justify-center">
+              <span className="text-white"><img 
+              src="https://ik.imagekit.io/shree1nterior/Shree%20Interior/shree%20construction%201%20logo.png" 
+              alt="Shree Construction & Interior Logo"/></span>
             </div>
             <div className="flex flex-col">
-              <span className="script-accent text-[var(--color-accent)]" style={{ fontSize: "20px", lineHeight: "1" }}>
+              <span className="script-accent text-[var(--color-accent)]" style={{ fontSize: "20px", lineHeight: "1" , fontFamily: "Gotham" ,fontStyle: 'Bold', fontWeight: '1000' }}>
                 Shree
               </span>
-              <span style={{ fontSize: "12px", lineHeight: "1.2", color: "var(--color-text-secondary)" }}>
+              <span style={{ fontSize: "15px", lineHeight: "0.7", color: "var(--color-text-secondary)" , fontFamily: "Gotham" ,fontStyle: 'Bold', fontWeight: '1000' }}>
                 Construction & Interior
               </span>
             </div>

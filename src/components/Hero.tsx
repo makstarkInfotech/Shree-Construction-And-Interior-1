@@ -13,7 +13,9 @@ export function Hero() {
                 Building Dreams
               </span>
               <h1 className="text-[var(--color-primary)]">
-                Transform Your Space Into Reality
+                Decorate your dream <span className="script-accent text-[var(--color-accent)]" style={{ fontStyle: "cursive" }}>
+                home.🏡
+              </span>
               </h1>
               <p className="text-[var(--color-text-secondary)]" style={{ fontSize: "18px" }}>
                 Expert construction and interior design services tailored to bring your vision to life with precision, quality, and style.
@@ -64,7 +66,7 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[16px] overflow-hidden shadow-[var(--shadow-xl)]">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1705321963943-de94bb3f0dd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBpbnRlcmlvciUyMGRlc2lnbiUyMGxpdmluZyUyMHJvb218ZW58MXx8fHwxNzYzMjA0MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="https://ik.imagekit.io/shree1nterior/Shree%20Interior/WhatsApp%20Image%202025-11-16%20at%208.58.44%20PM.jpeg"
                 alt="Modern interior design showcase"
                 className="w-full h-full object-cover"
               />
