@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
-import { useState, FormEvent } from "react";
+import { useState, FormEvent, useEffect } from "react";
+import { trackingService } from "../utils/tracking";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -12,8 +13,17 @@ export function Contact() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // Track page view on component mount
+  useEffect(() => {
+    trackingService.trackPageView('contact');
+  }, []);
+
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+    
+    // Track form submission
+    trackingService.trackFormSubmit('contact_form', 'contact');
+    
     setIsSubmitting(true);
     
     // Mock form submission
@@ -41,14 +51,14 @@ export function Contact() {
     {
       icon: <Phone size={24} />,
       label: "Phone",
-      value: "+91 98765 43210",
-      link: "tel:+919876543210",
+      value: "+91 83348 58726",
+      link: "tel:+918334858726",
     },
     {
       icon: <Mail size={24} />,
       label: "Email",
-      value: "info.shreeconstructions@gmail.com",
-      link: "mailto:info.shreeconstructions@gmail.com",
+      value: "shreeconstruction66@gmail.com",
+      link: "mailto:shreeconstruction66@gmail.com",
     },
     {
       icon: <MapPin size={24} />,
@@ -59,7 +69,7 @@ export function Contact() {
     {
       icon: <Clock size={24} />,
       label: "Working Hours",
-      value: "Mon - Sat: 9:00 AM - 7:00 PM",
+      value: "Fri - Wed: 9:00 AM - 7:00 PM & Thu: Closed",
       link: "https://share.google/Es9xIM7GgcSx4J1M2",
     },
   ];
@@ -201,6 +211,7 @@ export function Contact() {
                 <a
                   key={index}
                   href={info.link}
+                  onClick={() => trackingService.trackButtonClick(info.label, 'contact')}
                   className="flex items-start gap-[16px] p-[24px] bg-white rounded-[12px] border border-[var(--color-border)] transition-all hover:border-[var(--color-accent)] hover:shadow-[var(--shadow-sm)]"
                 >
                   <div className="w-[48px] h-[48px] bg-[var(--color-background-light)] rounded-[8px] flex items-center justify-center text-[var(--color-accent)] flex-shrink-0">

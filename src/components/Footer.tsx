@@ -32,16 +32,18 @@ export function Footer() {
           {/* Company Info */}
           <div className="flex flex-col gap-[24px]">
             <a href="#home" className="flex items-center gap-[8px]">
-              <div className="w-[40px] h-[40px] bg-[var(--color-accent)] rounded-[8px] flex items-center justify-center">
-                <span className="text-white">SC</span>
+              <div className="w-[40px] h-[40px] flex items-center justify-center"> {/*bg-[var(--color-accent)] rounded-[8px]*/}
+               <span className="text-white"><img 
+              src="https://ik.imagekit.io/shree1nterior/Shree%20Interior/shree%20construction%201%20logo.png" 
+              alt="Shree Construction & Interior Logo"/></span>
               </div>
               <div className="flex flex-col">
-                <span className="script-accent text-[var(--color-accent)]" style={{ fontSize: "20px", lineHeight: "1" }}>
-                  Shree
-                </span>
-                <span style={{ fontSize: "12px", lineHeight: "1.2", color: "rgba(255, 255, 255, 0.7)" }}>
-                  Construction & Interior
-                </span>
+                 <span className="script-accent text-[var(--color-accent)]" style={{ fontSize: "20px", lineHeight: "1" , fontFamily: "Gotham" ,fontStyle: 'Bold', fontWeight: '1000' }}>
+                Shree
+              </span>
+              <span style={{ fontSize: "15px", lineHeight: "0.7", color: "var(--color-text-white)" , fontFamily: "Gotham" ,fontStyle: 'Bold', fontWeight: '1000' }}>
+                Construction & Interior
+              </span>
               </div>
             </a>
             <p style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}>
@@ -106,7 +108,7 @@ export function Footer() {
                 style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}
               >
                 <Phone size={20} className="flex-shrink-0 mt-[2px]" />
-                <span>+91 98765 43210</span>
+                <span>+91 83348 58726</span>
               </a>
               <a
                 href="mailto:info@shreeconstruction.com"
@@ -114,7 +116,7 @@ export function Footer() {
                 style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}
               >
                 <Mail size={20} className="flex-shrink-0 mt-[2px]" />
-                <span>info@shreeconstruction.com</span>
+                <span>shreeconstruction66@gmail.com</span>
               </a>
             </div>
             <a
@@ -133,9 +135,16 @@ export function Footer() {
         <div className="container-custom py-[24px]">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-[16px]">
             <p style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}>
-              © {currentYear} Shree Construction & Interior. All rights reserved.
+              © {currentYear} Mak Stark. All rights reserved.
             </p>
             <div className="flex items-center gap-[24px]">
+               <a
+                href="https://makstark.com"
+                className="transition-colors hover:text-[var(--color-accent)]"
+                style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}
+              >
+                Creator Info: Mak Stark
+              </a>
               <a
                 href="#"
                 className="transition-colors hover:text-[var(--color-accent)]"
