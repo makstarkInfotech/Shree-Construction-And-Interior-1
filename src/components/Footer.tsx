@@ -146,14 +146,18 @@ export function Footer() {
                 Creator Info: Mak Stark
               </a>
               <a
-                href="#"
+                href="/privacy-policy.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="transition-colors hover:text-[var(--color-accent)]"
                 style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}
               >
                 Privacy Policy
               </a>
               <a
-                href="#"
+                href="/terms-of-service.html"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="transition-colors hover:text-[var(--color-accent)]"
                 style={{ fontSize: "14px", color: "rgba(255, 255, 255, 0.7)" }}
               >
