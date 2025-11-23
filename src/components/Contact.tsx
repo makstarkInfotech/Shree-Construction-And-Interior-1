@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, MessageCircle } from "lucide-react";
 import { useState, FormEvent, useEffect } from "react";
 import { trackingService } from "../utils/tracking";
 
@@ -53,6 +53,14 @@ export function Contact() {
       label: "Phone",
       value: "+91 83348 58726",
       link: "tel:+918334858726",
+      target: "_blank",
+    },
+    {
+      icon: <MessageCircle size={24} />,
+      label: "Whatsapp",
+      value: "+91 83348 58726",
+      link: "https://wa.me/918334858726?text=Hello%20Shree%20Construction%20%26%20Interior%2C%20I%20would%20like%20to%20inquire%20about%20your%20services.",
+      target: "_blank",
     },
     {
       icon: <Mail size={24} />,
@@ -65,12 +73,14 @@ export function Contact() {
       label: "Location",
       value: "Saptarshi, 220, Club Rd, Srikhanda, Panchpota, Rajpur Sonarpur, West Bengal 700152",
       link: "https://share.google/Es9xIM7GgcSx4J1M2",
+      target: "_blank",
     },
     {
       icon: <Clock size={24} />,
       label: "Working Hours",
       value: "Fri - Wed: 9:00 AM - 7:00 PM & Thu: Closed",
       link: "https://share.google/Es9xIM7GgcSx4J1M2",
+      target: "_blank",
     },
   ];
 
