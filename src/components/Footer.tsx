@@ -146,7 +146,7 @@ export function Footer() {
                 Creator Info: Mak Stark
               </a>
               <a
-                href="/privacy-policy.html"
+                href="/Shree-Construction-And-Interior-1/privacy-policy.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-[var(--color-accent)]"
@@ -155,7 +155,7 @@ export function Footer() {
                 Privacy Policy
               </a>
               <a
-                href="/terms-of-service.html"
+                href="/Shree-Construction-And-Interior-1/terms-of-service.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-[var(--color-accent)]"
